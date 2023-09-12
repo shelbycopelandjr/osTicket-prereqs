@@ -59,7 +59,14 @@ Next we want to download the files for the PHP and extract them from the ZIP fil
 <a href="https://imgur.com/RT2fXLc"><img src="https://i.imgur.com/RT2fXLc.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Explanation goes here
+Download and install the Visual C++ Redistributable. Nothing fancy here.
+</p>
+<p>
+<a href="https://imgur.com/yGEAqC5"><img src="https://i.imgur.com/yGEAqC5.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/UOE8RNv"><img src="https://i.imgur.com/UOE8RNv.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Next, we download and install MySQL. Also nothing fancy. Just be sure to check the box to launch the MySQL Instance Configuration Wizard
 </p>
 <br />
 
