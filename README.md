@@ -38,19 +38,63 @@ Also, make sure that Common HTTP Features is selected and, under Web Management 
 </p>
 <br />
 
-<h3>Install PHP Manager and Visual C++</h3>
+<h3>Install PHP Manager and IIS URL Rewrite Module</h3>
 <p>
 <a href="https://imgur.com/jnkI7jX"><img src="https://i.imgur.com/jnkI7jX.png" title="source: imgur.com" /></a>
-<a href="https://imgur.com/RT2fXLc"><img src="https://i.imgur.com/RT2fXLc.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/6g9wfXR"><img src="https://i.imgur.com/6g9wfXR.png" title="source: imgur.com" /></a>
 </p>
 <p>
 These two are pretty self explanatory. There is no need for any special configuration or install instructions though, as a precaution, it should be noted that installing these on your default directory (usually the C: drive) is probably best.
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<a href="https://imgur.com/viZhZYS"><img src="https://i.imgur.com/viZhZYS.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Next we want to download the files for the PHP and extract them from the ZIP file. I would recommend creating a folder on your default directory and extracting the files into that folder. My PHP folder is on my C drive, as seen here.
+</p>
+<br />
+
+<h3>Install Visual C++ and MySQL</h3>
+<p>
+<a href="https://imgur.com/RT2fXLc"><img src="https://i.imgur.com/RT2fXLc.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Explanation goes here
+</p>
+<br />
+
+<h3></h3>
+<p>
+<place image here>
+</p>
+<p>
+Explanation goes here
+</p>
+<br />
+
+<h3></h3>
+<p>
+<place image here>
+</p>
+<p>
+Explanation goes here
+</p>
+<br />
+
+<h3></h3>
+<p>
+<place image here>
+</p>
+<p>
+Explanation goes here
+</p>
+<br />
+
+<h3></h3>
+<p>
+<place image here>
+</p>
+<p>
+Explanation goes here
 </p>
 <br />
