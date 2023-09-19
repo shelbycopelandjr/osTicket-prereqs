@@ -100,6 +100,26 @@ Select "Register New PHP Version" under the PHP Setup section. It will then ask 
 </p>
 <p>
 Now, we download the files for osTicket. From the osTicket folder, copy the "upload" folder to: (default drive)> inetpub> wwwroot.
+If osTicket comes as a ZIP file, you can either unzip the file and then move the "upload" folder OR copy it directly from the ZIP file to the wwwroot folder.
+</p>
+<p>
+<a href="https://imgur.com/ydNR1tg"><img src="https://i.imgur.com/ydNR1tg.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Rename the "upload" folder to "osTicket".
+</p>
+<p>
+<a href="https://imgur.com/zIgoknC"><img src="https://i.imgur.com/zIgoknC.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/y8G2KWY"><img src="https://i.imgur.com/y8G2KWY.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Back in the IIS Manager,in the left hand panel, expand "Sites" and "Default Web Site", and select the osTicket folder. Then, go back to the PHP Manager and this time, select "Enable or disable an extension"
+</p>
+<p>
+<a href="https://imgur.com/4DIMUel"><img src="https://i.imgur.com/4DIMUel.png" title="source: imgur.com" /></a>
+</p>
+<p>
+In this window, we want to enable php_imap.dll, php_intl.dll, and php_opcache.dll. You can do this by right clicking each one and selecting "Enable" or by selecting the file and clicking "Enable" from the right hand panel.
 </p>
 <br />
 
