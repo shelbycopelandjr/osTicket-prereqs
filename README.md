@@ -21,6 +21,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install PHP Manager
 - Install Visual C++
 - Install MySQL
+- Configure IIS
+- Installing osTicket
 - Install Heidi SQL
 
 <h2>Installation Steps</h2>
@@ -68,32 +70,36 @@ Download and install the Visual C++ Redistributable. Nothing fancy here.
 <p>
 Next, we download and install MySQL. Also nothing fancy. Just be sure to check the box to launch the MySQL Instance Configuration Wizard
 </p>
-<br />
-
-<h3></h3>
 <p>
-<place image here>
+<a href="https://imgur.com/n7He8ft"><img src="https://i.imgur.com/n7He8ft.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Explanation goes here
+In the MySQL Instance Configuration Wizard, we select the Standard Configuration and proceed as normal.
 </p>
 <br />
 
-<h3></h3>
+<h3>Configure Internet Information Services</h3>
 <p>
-<place image here>
+<a href="https://imgur.com/Py4NdTl"><img src="https://i.imgur.com/Py4NdTl.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Explanation goes here
+From the Start Menu, we open Internet Information Services (IIS) Manager and select PHP Manager
+</p>
+<p>
+<a href="https://imgur.com/0ZNl39N"><img src="https://i.imgur.com/0ZNl39N.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Select "Register New PHP Version" under the PHP Setup section. It will then ask where the new PHP file is. Navigate to the PHP folder we made earlier to locate and select the necessary PHP file to continue.
 </p>
 <br />
 
-<h3></h3>
+<h3>Installing osTicket</h3>
 <p>
-<place image here>
+<a href="https://imgur.com/mAE4Fjx"><img src="https://i.imgur.com/mAE4Fjx.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/05BXESk"><img src="https://i.imgur.com/05BXESk.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Explanation goes here
+Now, we download the files for osTicket. From the osTicket folder, copy the "upload" folder to: (default drive)> inetpub> wwwroot.
 </p>
 <br />
 
