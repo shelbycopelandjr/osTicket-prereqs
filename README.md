@@ -74,7 +74,7 @@ Next, we download and install MySQL. Also nothing fancy. Just be sure to check t
 <a href="https://imgur.com/n7He8ft"><img src="https://i.imgur.com/n7He8ft.png" title="source: imgur.com" /></a>
 </p>
 <p>
-In the MySQL Instance Configuration Wizard, we select the Standard Configuration and proceed as normal.
+In the MySQL Instance Configuration Wizard, we select the Standard Configuration. Check Modify Security Settings. Take note of what you use as the password. We'll need that later.
 </p>
 <br />
 
@@ -121,13 +121,50 @@ Back in the IIS Manager,in the left hand panel, expand "Sites" and "Default Web 
 <p>
 In this window, we want to enable php_imap.dll, php_intl.dll, and php_opcache.dll. You can do this by right clicking each one and selecting "Enable" or by selecting the file and clicking "Enable" from the right hand panel.
 </p>
+<p>
+<a href="https://imgur.com/ywUuq7Y"><img src="https://i.imgur.com/ywUuq7Y.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/ka6A07n"><img src="https://i.imgur.com/ka6A07n.png" title="source: imgur.com" /></a>
+</p>
+<p>Going back to (default drive)> inetpub> wwwroot, enter the osTicket folder and rename "ost_sampleconfig.php" to "ost_config.php". Next, right click "ost_config.php", select Properties, navigate to the Security tab and click the Advanced button near the bottom.
+</p>
+<p>
+<a href="https://imgur.com/zhSmpgh"><img src="https://i.imgur.com/zhSmpgh.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Here in the Advanced Security Settings, click the Disable Inheritance button in the bottom left and confirm the full removal of inherited access. Then, click the Add button.
+</p>
+<p>
+<a href="https://imgur.com/WIQLYEq"><img src="https://i.imgur.com/WIQLYEq.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/yTqOXoP"><img src="https://i.imgur.com/yTqOXoP.png" title="source: imgur.com" /></a>
+</p>
+<p>
+CLick "Select a principal" at the top of the screen and in the text box add "Everyone" and click OK. Click the box next to Full Control and click OK.
+</p>
+<p>
+<a href="https://imgur.com/YvxVlqO"><img src="https://i.imgur.com/YvxVlqO.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Back in the IIS Manager, on the right hand panel, under the Manage Server section, click Restart. Once everything is restarted, you should be able to navigate to 127.0.0.1 and see this screen if all is well. Click Continue. In this window there will be a bunch of info you have to input to set up default access to osTicket. Make sure to keep track of what you put in just in case you need it down the line. At the bottom, in the last section, we hold off on that. Before we fill those in we have to...
+</p>
 <br />
 
-<h3></h3>
+<h3>Install Heidi SQL</h3>
 <p>
-<place image here>
+<a href="https://imgur.com/cCN20us"><img src="https://i.imgur.com/cCN20us.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Explanation goes here
+Download and install Heidi SQL. Nothing fancy yet.
 </p>
+<p>
+<a href="https://imgur.com/tgzcQIF"><img src="https://i.imgur.com/tgzcQIF.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Open Heidi SQL. Right click the left hand panel and select New Session. On the right hand side, the user should be "root" and the password is the same password we used when configuring MySQL (I told you we'd need that), then click Open.
+</p>
+<p>
+<a href="https://imgur.com/NPjX2ej"><img src="https://i.imgur.com/NPjX2ej.png" title="source: imgur.com" /></a>
+<p>
+In this window, right click the left hand panel and select "Create new" and make a new database called "osTicket"
+</p>
+
 <br />
