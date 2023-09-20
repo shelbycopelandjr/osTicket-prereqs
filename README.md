@@ -166,5 +166,25 @@ Open Heidi SQL. Right click the left hand panel and select New Session. On the r
 <p>
 In this window, right click the left hand panel and select "Create new" and make a new database called "osTicket"
 </p>
+<p>
+<a href="https://imgur.com/Pgrk9EG"><img src="https://i.imgur.com/Pgrk9EG.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Back to the osTicket page in the browser, finish it up with the name of the database we just made in Heidi (osTicket), the MySQL username (root), and the password from MySQL (the one you saved earlier). Once you're done, click the Install Now button and...
+</p>
+<br />
 
+<h3>Done...and Clean Up</h3>
+<p>
+<a href="https://imgur.com/ZNOK33w"><img src="https://i.imgur.com/ZNOK33w.png" title="source: imgur.com" /></a>
+</p>
+<p>
+We're done (barring any errors, of course). Just a few things to do to tidy up.
+</p>
+<p>
+<a href="https://imgur.com/2Sol8oU"><img src="https://i.imgur.com/2Sol8oU.png" title="source: imgur.com" /></a>
+</p>
+<p>
+Going back to (default drive)> inetpub> wwwroot> osTicket, delete the "setup" folder. From there, right click "ost_config.php", select Properties, navigate to the Security tab and click the Advanced button near the bottom again. In Avanced Security Settings, click the Change Permissions button and select "Everyone". *Uncheck* all boxes except for the one next to "Read". Confirm your changes and congrats. You're osTicket system is running and ready to be set up for use.
+</p>
 <br />
